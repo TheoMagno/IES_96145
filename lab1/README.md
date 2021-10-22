@@ -42,7 +42,7 @@ WeatherForecastByCity-> groupId=WeatherForecast artifactId=ForecastByCity
 - B) Yes, because it gets all the dependecies and integrates them to the project to make it run correctly.
 - C) 
 ```
-git clone / git pull      #get the repository or the most recent version
+   git clone / git pull      #get the repository or the most recent version
    MAKE CHANGES
    git add CHANGES           #add the changes to the upstream
    git commit -m "commits"   #write a commit to show the changes
@@ -57,7 +57,7 @@ git clone / git pull      #get the repository or the most recent version
    * Volumes can be more safely shared among multiple containers.
    * Volume drivers let you store volumes on remote hosts or cloud providers, to encrypt the contents of volumes, or to add other functionality.
    * New volumes can have their content pre-populated by a container.
-   * Volumes on Docker Desktop have much higher performance than bind mounts from Mac and Windows hosts.
+   * Volumes on Docker Desktop have much higher performance than bind mounts from Mac and Windows hosts. <br />
    So, using volumes makes it easier to manage the database through different hardwares. Also, volumes permit to change dinamically without remaking the image.
 
 ```
