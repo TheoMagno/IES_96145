@@ -27,7 +27,7 @@ WeatherForecastByCity-> groupId=WeatherForecast artifactId=ForecastByCity
 
 ## **REVIEW QUESTIONS:**
 
--A) The default lifecycle handles your project deployment.
+- A) The default lifecycle handles your project deployment.
    In this lifecycle the main phases are:
 ```
     validate - validate the project is correct and all necessary information is available
@@ -39,14 +39,14 @@ WeatherForecastByCity-> groupId=WeatherForecast artifactId=ForecastByCity
     deploy - done in the build environment, copies the final package to the remote repository for sharing with other developers and projects.
 ```
 
--B) Yes, because it gets all the dependecies and integrates them to the project to make it run correctly.
--C) git clone / git pull      #get the repository or the most recent version
+- B) Yes, because it gets all the dependecies and integrates them to the project to make it run correctly.
+- C) git clone / git pull      #get the repository or the most recent version
    MAKE CHANGES
    git add CHANGES           #add the changes to the upstream
    git commit -m "commits"   #write a commit to show the changes
    git push                  #save the changes into the remote repository
--D) To make a good commit message it is important to tell briefly the most important changes or write the task's name.
--E) Volumes are easier to back up or migrate than bind mounts.
+- D) To make a good commit message it is important to tell briefly the most important changes or write the task's name.
+- E) Volumes are easier to back up or migrate than bind mounts.
    You can manage volumes using Docker CLI commands or the Docker API.
    Volumes work on both Linux and Windows containers.
    Volumes can be more safely shared among multiple containers.
