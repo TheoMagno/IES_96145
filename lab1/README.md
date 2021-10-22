@@ -50,17 +50,16 @@ git clone / git pull      #get the repository or the most recent version
 ```
 
 - D) To make a good commit message it is important to tell briefly the most important changes or write the task's name.
-- E) Volumes are easier to back up or migrate than bind mounts.
-   You can manage volumes using Docker CLI commands or the Docker API.
-   Volumes work on both Linux and Windows containers.
-   Volumes can be more safely shared among multiple containers.
-   Volume drivers let you store volumes on remote hosts or cloud providers, to encrypt the contents of volumes, or to add other functionality.
-   New volumes can have their content pre-populated by a container.
-   Volumes on Docker Desktop have much higher performance than bind mounts from Mac and Windows hosts.
-
+- E) * Volumes are easier to back up or migrate than bind mounts.
+   * You can manage volumes using Docker CLI commands or the Docker API.
+   * Volumes work on both Linux and Windows containers.
+   * Volumes can be more safely shared among multiple containers.
+   * Volume drivers let you store volumes on remote hosts or cloud providers, to encrypt the contents of volumes, or to add other functionality.
+   * New volumes can have their content pre-populated by a container.
+   * Volumes on Docker Desktop have much higher performance than bind mounts from Mac and Windows hosts.
+```
    So, using volumes makes it easier to manage the database through different hardwares. Also, volumes permit to change dinamically without remaking the image.
 
-```
 PS: como havia dito ao professor na aula prática de terça-feira, dia 19/10, estava sem internet em casa.
 Apenas às 21 horas de quinta, 21/10, consegui ter
 acesso novamente. Por este motivo atrasarei a entrega
