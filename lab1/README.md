@@ -40,11 +40,15 @@ WeatherForecastByCity-> groupId=WeatherForecast artifactId=ForecastByCity
 ```
 
 - B) Yes, because it gets all the dependecies and integrates them to the project to make it run correctly.
-- C) git clone / git pull      #get the repository or the most recent version
+- C) 
+```
+git clone / git pull      #get the repository or the most recent version
    MAKE CHANGES
    git add CHANGES           #add the changes to the upstream
    git commit -m "commits"   #write a commit to show the changes
    git push                  #save the changes into the remote repository
+```
+
 - D) To make a good commit message it is important to tell briefly the most important changes or write the task's name.
 - E) Volumes are easier to back up or migrate than bind mounts.
    You can manage volumes using Docker CLI commands or the Docker API.
