@@ -28,7 +28,7 @@ public class RequestServlet extends HttpServlet {
          
         try {
             // Write some content
-            username.equals("Shrek");
+            username.equals("Shrek"); // gerar a NullPointerException se não for introduzido um username
             out.println("<html>");
             out.println("<head>");
             out.println("<title>LoginServlet</title>");
