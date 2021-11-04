@@ -1,4 +1,4 @@
-REVIEW QUESTIONS:
+## **REVIEW QUESTIONS:**
 
 - A) A servlet container generates dynamic web pages. It communicates between browsers and servlets. A servlet container works like this:
     * A client access a server for a page;
