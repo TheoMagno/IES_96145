@@ -12,23 +12,23 @@
 
 ## 3_2
 
-# POST METHOD:
+### POST METHOD:
 
 <img src="screenshots/post.png" />
 
-# UPDATE METHOD:
+### UPDATE METHOD:
 
 <img src="screenshots/update.png" />
 
-# GET ALL METHOD:
+### GET ALL METHOD:
 
 <img src="screenshots/getAll.png" />
 
-# GET BY ID METHOD:
+### GET BY ID METHOD:
 
 <img src="screenshots/getById.png" />
 
-# GET BY EMAIL METHOD:
+### GET BY EMAIL METHOD:
 
 <img src="screenshots/getByEmail.png" />
 
