@@ -1,4 +1,4 @@
-FROM openjdk:8-jdk-alpine
-VOLUME /tmp
-ARG JAR_FILE
-COPY ${JAR_FILE} lab3/lab3_3/target/lab3_3-0.0.1-SNAPSHOT.jar
+FROM openjdk:8
+ADD target/lab3_3.jar lab3_3.jar
+EXPOSE 8086
+ENTRYPOINT [ "java", "-jar", "lab3_3.jar" ]

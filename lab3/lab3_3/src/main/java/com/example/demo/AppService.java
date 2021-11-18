@@ -42,7 +42,7 @@ public class AppService {
     public List<Quote> getQuotesByTitle(String title) {
         return qRepository.findByMovie(getMovieByTitle(title).get(0));
     }
-
+    
     public String deleteQuote(Long id) {
         qRepository.deleteById(id);
         return "quote removed !! " + id;
