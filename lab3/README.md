@@ -37,6 +37,6 @@
 ## REVIEW QUESTIONS
 
 - A) The RestController includes the Controller and ResponseBody annotations. So, the RestController automatically serializes the the return object into the HttpResponse while in the Controller it is needed to include the ResponseBody to be able to do that.
-- B)
+- B) <img src="screenshots/uml.png" />
 - C) These annotations are used to communicate with the MySQL Database. @Table indicates that this entity will be a table in the database; @Column indicates that the attribute will be a column from the table; @Id is usually used to create an incremental unique ID for each row at the database.
 - D) The @AutoWired annotation calls the constructor to instantly create an instance of a class so that the program can run rightly.
