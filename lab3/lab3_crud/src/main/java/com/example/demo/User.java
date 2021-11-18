@@ -13,7 +13,7 @@ public class User {
     
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private long id;
+    private Long id;
 
     @NotBlank(message = "Name is mandatory")
     private String name;
@@ -21,18 +21,22 @@ public class User {
     @NotBlank(message = "Email is mandatory")
     private String email;
 
+    @NotBlank(message = "Phone is mandatory")
+    private String phone;
+
     private User() {}
 
-    public User(long id, String name, String email) {
+    public User(Long id, String name, String email, String phone) {
         this.id = id;
         this.name = name;
         this.email = email;
+        this.phone = phone;
     }
 
-    public long getId() {
+    public Long getId() {
         return id;
     }
-    public void setId(long id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
@@ -50,8 +54,16 @@ public class User {
         this.email = email;
     }
 
+    public String getPhone() {
+        return phone;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
+    }
+
     @Override
     public String toString() {
-        return "ID:" + id + "\nName:" + name + "\nEmail:" + email;
+        return "ID: " + id + "\nName: " + name + "\nEmail: " + email + "\nPhone: " + phone;
     }
 }
